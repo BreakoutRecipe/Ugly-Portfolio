@@ -1,0 +1,40 @@
+*, body {
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 20px;
+
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: large;
+    font-weight:400;
+}
+button{
+    padding: 6px 12px;
+    background-color: brown;
+    border-radius: 14px;
+    border: none;
+    transition: all 0.5s;
+}
+button:hover{
+    transform:scale(1.1);
+    background-color: white;
+    color: brown;
+}
+img{
+    width:100%;
+}
